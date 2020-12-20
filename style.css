@@ -1,0 +1,70 @@
+body {
+  padding: 2% 10%;
+  text-align: center;
+}
+
+#box {
+  margin: 50px auto;
+  width: 200px;
+  height: 200px;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  border: 10px solid #404B69;
+  background-color: black;
+}
+// this class create shaking in the box.
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.form-floating{
+  margin-top: 5px;
+}
+
+.box1{
+  background-color: red;
+}
+.box2{
+  background-color: green;
+}
+.box3{
+  background-color: blue;
+}
+.box4{
+  background-color: yellow;
+}
+.box5{
+  background-color: purple;
+}
+.box6{
+  background-color: red;
+}
+
+.check-result{
+  margin: 2% auto;
+  text-align: center;
+}
+
+
+.hide{
+  visibility: hidden;
+}
+
+.title-message{
+  visibility: hidden;
+}
+
+.your-color{
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin:1px;
+}
+.system-color{
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin:1px;
+}
